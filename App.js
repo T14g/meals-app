@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-web';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Blank canvas</Text>
-    </View>
+    <SafeAreaView>
+      <Text>Hello world</Text>
+    </SafeAreaView>
   );
 }
 
